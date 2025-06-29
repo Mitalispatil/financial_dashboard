@@ -44,7 +44,6 @@ const Login: React.FC = () => {
   const demoCredentials = [
     { role: 'Admin', email: 'admin@financial.com', password: 'admin123' },
     { role: 'Analyst', email: 'analyst@financial.com', password: 'analyst123' },
-    { role: 'Viewer', email: 'viewer@financial.com', password: 'viewer123' },
   ];
 
   const handleDemoLogin = (demoEmail: string, demoPassword: string) => {
