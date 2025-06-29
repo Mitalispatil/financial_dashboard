@@ -1,0 +1,26 @@
+/steps.txt
+/venv
+
+# ========== GLOBAL ==========
+.DS_Store
+Thumbs.db
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+
+# ========== FRONTEND ==========
+/frontend/node_modules/
+/frontend/build/
+/frontend/dist/
+/frontend/.env
+/frontend/.DS_Store
+
+# ========== BACKEND ==========
+/backend/node_modules/
+/backend/dist/
+/backend/.env
+/backend/.DS_Store
+/backend/coverage/
